@@ -43,4 +43,4 @@ documentation = "https://github.com/wattleflow/pathadder.git"
 include-package-data = true
 
 [tool.setuptools.packages.find]
-where = ["."]
+where = ["pathadder"]
