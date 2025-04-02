@@ -8,7 +8,6 @@ setup(
     author="WattleFlow",
     author_email="wattleflow@outlook.com",
     url="https://github.com/wattleflow/pathadder.git",
-    license="Apache-2.0",
     packages=find_packages(where="pathadder"),
     package_dir={"": "pathadder"},
     include_package_data=True,

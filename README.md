@@ -12,7 +12,7 @@ crafted to endure and persist.
 
 | Characteristic           | Value                                                      |
 | ------------------------ | ---------------------------------------------------------- |
-| **Version**              | 0.0.0.3 (latest release)                                   |
+| **Version**              | 0.0.0.4 (latest release)                                   |
 | **License**              | Apache 2.0 License                                         |
 | **Python Compatibility** | Python >=3.7.1                                             |
 | **Dependencies**         | wattleflow                                                 |

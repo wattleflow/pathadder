@@ -3,16 +3,15 @@ requires = ["setuptools", "setuptools_scm", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools_scm]
-# write_to = "_version.py"
 version_scheme = "post-release"
 local_scheme = "node-and-date"
 
 [project]
 name = "pathadder"
-version = "0.3"
+version = "0.4"
 description = "A Python library for managing and modifying system paths efficiently. (Wattleflow)"
 readme = "README.md"
-license = { file = "LICENSE" }
+license = "Apache-2.0"
 authors = [{ name = "wattleflow", email = "wattleflow@outlook.com" }]
 keywords = ["pathadder", "python", "library", "wattleflow"]
 requires-python = ">=3.7.1"
@@ -29,7 +28,6 @@ classifiers = [
     "Intended Audience :: Developers",
     "Topic :: Software Development :: Libraries",
     "Topic :: Software Development :: Libraries :: Python Modules",
-    "License :: OSI Approved :: Apache Software License",
 ]
 
 dependencies = []
@@ -44,3 +42,7 @@ include-package-data = true
 
 [tool.setuptools.packages.find]
 where = ["pathadder"]
+include = ["pathadder/*"]
+
+[tool.setuptools.package-dir]
+"" = "pathadder"
