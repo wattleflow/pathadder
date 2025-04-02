@@ -8,5 +8,8 @@ exclude .dist
 exclude .pylintrc
 exclude .gitignore
 include README.md LICENSE
+include pathadder
+include pathadder/__init__.py
+include pathadder/pathadder.py
 recursive-include pathadder/ *.py
 
