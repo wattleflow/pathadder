@@ -8,9 +8,8 @@ setup(
     author="WattleFlow",
     author_email="wattleflow@outlook.com",
     url="https://github.com/wattleflow/pathadder.git",
-    setup_requires=["setuptools>=42", "setuptools_scm"],
-    packages=find_packages(where="pathadder"),
-    package_dir={"": "pathadder"},
+    packages=find_packages(where="src"),
+    package_dir={"": "src"},
     include_package_data=True,
     classifiers=[
         "Development Status :: 5 - Production/Stable",
@@ -27,6 +26,8 @@ setup(
         "Topic :: Software Development :: Libraries :: Python Modules",
     ],
     python_requires=">=3.7.1",
+    setup_requires=["setuptools_scm"],
+    use_scm_version=True,
     install_requires=[],
     extras_require={},
 )
