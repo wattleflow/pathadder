@@ -2,7 +2,6 @@ from setuptools import setup, find_packages
 
 setup(
     name="pathadder",
-    version="0.0.0.1",
     description="A Python library for managing and modifying system paths efficiently. (Wattleflow)",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
@@ -11,7 +10,7 @@ setup(
     url="https://github.com/wattleflow/pathadder.git",
     license="Apache-2.0",
     packages=find_packages(where="."),
-    package_dir={"": "."},
+    package_dir={"": "pathadder"},
     include_package_data=True,
     classifiers=[
         "Development Status :: 5 - Production/Stable",
@@ -29,10 +28,6 @@ setup(
         "License :: OSI Approved :: Apache Software License",
     ],
     python_requires=">=3.7.1",
-    install_requires=[
-        # Dependencies
-    ],
-    extras_require={
-        # Optional dependencies
-    },
+    install_requires=[],
+    extras_require={},
 )
