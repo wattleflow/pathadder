@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools", "setuptools_scm", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+# write_to = "_version.py"
+version_scheme = "post-release"
+local_scheme = "node-and-date"
+
+[project]
+name = "pathadder"
+version = "0.0.0.1"
+description = "A Python library for managing and modifying system paths efficiently. (Wattleflow)"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [{ name = "wattleflow", email = "wattleflow@outlook.com" }]
+keywords = ["pathadder", "python", "library", "wattleflow"]
+requires-python = ">=3.7.1"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "License :: OSI Approved :: Apache Software License",
+]
+
+dependencies = []
+
+[project.urls]
+homepage = "https://github.com/wattleflow/pathadder.git"
+repository = "https://github.com/wattleflow/pathadder.git"
+documentation = "https://github.com/wattleflow/pathadder.git"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["."]
