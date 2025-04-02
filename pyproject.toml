@@ -8,7 +8,7 @@ local_scheme = "node-and-date"
 
 [project]
 name = "pathadder"
-version = "0.4"
+version = "0.5"
 description = "A Python library for managing and modifying system paths efficiently. (Wattleflow)"
 readme = "README.md"
 license = "Apache-2.0"

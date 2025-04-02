@@ -3,18 +3,10 @@ prune .pytest_cache
 exclude .gitignore
 exclude *.pyc
 exclude *.pyo
-exclude .DS_Store
 exclude .vscode
 exclude .dist
 exclude .pylintrc
-exclude .env
-exclude .flake8
 exclude .gitignore
-exclude .github/*
-exclude .scraps
-exclude .vscode
-exclude .vscode
-include pathadder
 include README.md LICENSE
 recursive-include pathadder/ *.py
 
